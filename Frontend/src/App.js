@@ -13,9 +13,10 @@ import ViewCourses from "./components/Courses/ViewCourses";
 import ViewDepartments from "./components/Department/ViewDepartments";
 import Landing from "./components/landing/landingPage";
 import StudentLogin from "./components/studentLogin/studentLogin";
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
-    <div className="container">
+    <div className="">
       <Router>
         <Routes>
           <Route exact path="/" element={<Landing />}></Route>

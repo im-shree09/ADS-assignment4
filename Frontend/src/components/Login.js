@@ -33,7 +33,7 @@ function Login() {
           <input type="password" name="password" />
           <br />
           <button className="facultyLoginButton" type="submit">
-            Submit
+            Submiti
           </button>
         </form>
       </div>
