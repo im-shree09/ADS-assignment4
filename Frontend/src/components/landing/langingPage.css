@@ -1,0 +1,29 @@
+.landing_bgimg{
+    background: url('./1.jpg') no-repeat;
+    object-fit: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+    
+}
+.loginButton{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+}
+.button{
+    background-color: aqua;
+    padding: 5px;
+    margin: 5px; 
+    text-decoration: none;   
+}
+.text{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+}
